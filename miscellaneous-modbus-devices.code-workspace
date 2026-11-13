@@ -5,6 +5,9 @@
         }
     ],
     "settings": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.rumdl": "explicit"
+        },
         "[python]": {
             "editor.formatOnSave": true,
             "editor.codeActionsOnSave": {
@@ -34,7 +37,7 @@
             "ms-python.python",
             "streetsidesoftware.code-spell-checker",
             "editorconfig.editorconfig",
-            "davidanson.vscode-markdownlint",
+            "rvben.rumdl",
             "yzhang.markdown-all-in-one",
             "tamasfe.even-better-toml"
         ]
